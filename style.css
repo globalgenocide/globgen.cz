@@ -1,0 +1,30 @@
+html { 
+  background: url(img/thom-milkovic-zpbzMHIe_NU-unsplash.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  position: absolute;
+  top: 20vh;
+  left: 10vw;
+  max-width: 80vw;
+
+  font-size: 5rem;
+  text-align: center;
+  color: white;
+
+  text-transform: uppercase;
+}
+
+#logo {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+  max-width: 250px;
+  width: 15vw;
+}
