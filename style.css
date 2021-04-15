@@ -1,5 +1,6 @@
 html { 
-  background: url(img/thom-milkovic-zpbzMHIe_NU-unsplash.jpg) no-repeat center center fixed; 
+  background: url(img/thom-milkovic-zpbzMHIe_NU-unsplash.jpg) no-repeat center center fixed;
+  background-color: black; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -11,6 +12,13 @@ html {
 body{
   padding: 0;
   margin: 0;
+}
+
+#shadow {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.75);
 }
 
 #logo {
