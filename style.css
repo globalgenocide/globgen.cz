@@ -4,27 +4,84 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-
   font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
 }
-
-h1 {
-  position: absolute;
-  top: 20vh;
-  left: 10vw;
-  max-width: 80vw;
-
-  font-size: 5rem;
-  text-align: center;
-  color: white;
-
-  text-transform: uppercase;
+body{
+  padding: 0;
+  margin: 0;
 }
 
 #logo {
   position: absolute;
   top: 30px;
-  left: 40px;
+  left: 35px;
   max-width: 250px;
   width: 15vw;
+}
+
+#content {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 20vh;
+  color: white;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 80vw;
+}
+
+#soutezit {
+  font-size: 2rem;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  background-color: rgb(255, 72, 0);
+  cursor: pointer;
+}
+
+#infobg {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+}
+
+#infowindow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem 5rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  background-color: white;
+}
+
+#infotext {
+  max-width: 25vw;
+}
+
+h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+#toIG {
+  font-size: 2rem;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+  background-color: rgb(255, 72, 0);
+  color: white;
+  cursor: pointer;
+  margin: 40px;
 }
